@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-finance-app/static/css/main.f79d3577.chunk.css",
+    "main.css": "/my-finance-app/static/css/main.516a9f92.chunk.css",
     "main.js": "/my-finance-app/static/js/main.64ab2f2f.chunk.js",
     "main.js.map": "/my-finance-app/static/js/main.64ab2f2f.chunk.js.map",
     "runtime-main.js": "/my-finance-app/static/js/runtime-main.cd9dc035.js",
@@ -9,10 +9,10 @@
     "static/js/2.e1ccc279.chunk.js": "/my-finance-app/static/js/2.e1ccc279.chunk.js",
     "static/js/2.e1ccc279.chunk.js.map": "/my-finance-app/static/js/2.e1ccc279.chunk.js.map",
     "index.html": "/my-finance-app/index.html",
-    "precache-manifest.9fd65da40272aefaaf2982ad9d4af1b7.js": "/my-finance-app/precache-manifest.9fd65da40272aefaaf2982ad9d4af1b7.js",
+    "precache-manifest.bc5c0e8c97d727ba4215b0701e2d4c8e.js": "/my-finance-app/precache-manifest.bc5c0e8c97d727ba4215b0701e2d4c8e.js",
     "service-worker.js": "/my-finance-app/service-worker.js",
     "static/css/2.2f888444.chunk.css.map": "/my-finance-app/static/css/2.2f888444.chunk.css.map",
-    "static/css/main.f79d3577.chunk.css.map": "/my-finance-app/static/css/main.f79d3577.chunk.css.map",
+    "static/css/main.516a9f92.chunk.css.map": "/my-finance-app/static/css/main.516a9f92.chunk.css.map",
     "static/js/2.e1ccc279.chunk.js.LICENSE.txt": "/my-finance-app/static/js/2.e1ccc279.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/my-finance-app/static/media/outline-icons.ef60a4f6.woff"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.cd9dc035.js",
     "static/css/2.2f888444.chunk.css",
     "static/js/2.e1ccc279.chunk.js",
-    "static/css/main.f79d3577.chunk.css",
+    "static/css/main.516a9f92.chunk.css",
     "static/js/main.64ab2f2f.chunk.js"
   ]
 }

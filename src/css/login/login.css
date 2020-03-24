@@ -17,7 +17,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
 div .lognModal{
     background-color: white;
-    opacity: 80%;
+    /* opacity: 80%; */
     min-width: 400px;
     height: 350px;
     border-radius: 10px;
