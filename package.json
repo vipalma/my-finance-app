@@ -1,0 +1,52 @@
+{
+  "homepage": "http://vipalma.github.io/my-finance-app",
+  "name": "my-finance-app-2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@auth0/auth0-spa-js": "^1.6.4",
+    "@material-ui/core": "^4.9.5",
+    "@material-ui/icons": "^4.9.1",
+    "auth0-lock": "^11.22.4",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dinero.js": "^1.7.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-dropzone": "^10.2.1",
+    "react-google-charts": "^3.0.15",
+    "react-intl": "^4.1.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "recharts": "^1.8.5",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "tachyons": "^4.11.1",
+    "use-global-hook": "^0.1.12",
+    "use-react-router": "^1.0.7",
+    "xlsx": "^0.15.5"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

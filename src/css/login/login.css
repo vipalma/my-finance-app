@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+
+div .background{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div .lognModal{
+    background-color: white;
+    opacity: 80%;
+    min-width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+div .title{
+    height: 35%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+
+div h1{
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+div .modalButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div .loginButton{
+    /* background-color: cornflowerblue; */
+    background: rgb(2,0,36);
+    background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin-top: 30px;
+    width: 65%;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div h4 {
+    cursor: pointer;
+    background: transparent;
+    border: transparent;
+    color: white;
+    text-transform: uppercase;
+    
+}
