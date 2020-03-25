@@ -19,7 +19,7 @@ div .lognModal{
     background-color: white;
     /* opacity: 80%; */
     width: 600px;
-    height: 400px;
+    height: 500px;
     border-radius: 10px;
     display: block;
     align-items: center;
@@ -27,7 +27,7 @@ div .lognModal{
 }
 
 div .title{
-    height: 20%;
+    height: 15%;
     display: flex;
     align-items: flex-end;
     justify-content: center;    
@@ -81,6 +81,34 @@ div h4 {
     font-weight: 400;
 }
 
-.form{
+.formLogin{
     width: 70%;
+}
+
+.btnGoogle{
+    cursor: pointer;
+    width: 160px;
+}
+
+.divDivider{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.divSocialBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messageBox{
+    height: 20px;
+    
+}
+
+@media (max-width: 320px) {
+    .messageBox{
+        height: 50px;
+        
+    }   
 }

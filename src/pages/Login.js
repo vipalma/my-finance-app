@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import "../css/login/login.css";
 import useGlobal from "../store";
-import { Form } from "semantic-ui-react";
+import { Form, Divider } from "semantic-ui-react";
+import btn_google from "../images/btn_google.png";
 
 const Login = () => {
   const [globalState] = useGlobal();
-  const { firebaseAppAuth } = globalState;
+  const { fireBase, firebaseAppAuth } = globalState;
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -13,21 +14,23 @@ const Login = () => {
 
   const signIn = () => {
     firebaseAppAuth.signInWithEmailAndPassword(email, password).catch(error => {
-      setError(error);      
+      setError(error);
     });
   };
 
-
+  const signInWithGoogle = () => {
+    fireBase.signInWithGoogle();
+  };
 
   return (
     <div className="background">
       <div className="lognModal">
         {/* {showMessageBox()} */}
-        <div className="title">        
+        <div className="title">
           <h1>Welcome to My Finance</h1>
         </div>
         <div className="loginForm">
-          <Form className='form'>
+          <Form className="formLogin">
             <Form.Field>
               <label>Email</label>
               <input
@@ -44,16 +47,26 @@ const Login = () => {
                 value={password}
                 onChange={e => setPassword(e.target.value)}
               />
-              <a className='loginMessage'>{error.message}</a>
+              <div className='messageBox'>
+              <a className="loginMessage">{error.message}</a>
+              </div>
             </Form.Field>
-            
           </Form>
-          
         </div>
         <div className="modalButton">
           <div className="loginButton" onClick={signIn}>
             <h4>Sign in</h4>
           </div>
+        </div>
+        <div className='divDivider'>
+          <Divider horizontal>Or</Divider>
+        </div>
+        <div className='divSocialBtn'>
+          <img
+            className="btnGoogle"
+            src={btn_google}
+            onClick={signInWithGoogle}
+          ></img>
         </div>
       </div>
     </div>
