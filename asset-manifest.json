@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-finance-app/static/css/main.516a9f92.chunk.css",
-    "main.js": "/my-finance-app/static/js/main.25ad3421.chunk.js",
-    "main.js.map": "/my-finance-app/static/js/main.25ad3421.chunk.js.map",
+    "main.css": "/my-finance-app/static/css/main.ace53f27.chunk.css",
+    "main.js": "/my-finance-app/static/js/main.6f1f43fa.chunk.js",
+    "main.js.map": "/my-finance-app/static/js/main.6f1f43fa.chunk.js.map",
     "runtime-main.js": "/my-finance-app/static/js/runtime-main.cd9dc035.js",
     "runtime-main.js.map": "/my-finance-app/static/js/runtime-main.cd9dc035.js.map",
     "static/css/2.fb6f20f9.chunk.css": "/my-finance-app/static/css/2.fb6f20f9.chunk.css",
-    "static/js/2.238b6eed.chunk.js": "/my-finance-app/static/js/2.238b6eed.chunk.js",
-    "static/js/2.238b6eed.chunk.js.map": "/my-finance-app/static/js/2.238b6eed.chunk.js.map",
+    "static/js/2.8e8386d5.chunk.js": "/my-finance-app/static/js/2.8e8386d5.chunk.js",
+    "static/js/2.8e8386d5.chunk.js.map": "/my-finance-app/static/js/2.8e8386d5.chunk.js.map",
     "index.html": "/my-finance-app/index.html",
-    "precache-manifest.2c79fb0bcc5c2a7bb92cdbaefff0fcf7.js": "/my-finance-app/precache-manifest.2c79fb0bcc5c2a7bb92cdbaefff0fcf7.js",
+    "precache-manifest.94d2820ab5843e51cd518a5a219e6f35.js": "/my-finance-app/precache-manifest.94d2820ab5843e51cd518a5a219e6f35.js",
     "service-worker.js": "/my-finance-app/service-worker.js",
     "static/css/2.fb6f20f9.chunk.css.map": "/my-finance-app/static/css/2.fb6f20f9.chunk.css.map",
-    "static/css/main.516a9f92.chunk.css.map": "/my-finance-app/static/css/main.516a9f92.chunk.css.map",
-    "static/js/2.238b6eed.chunk.js.LICENSE.txt": "/my-finance-app/static/js/2.238b6eed.chunk.js.LICENSE.txt",
+    "static/css/main.ace53f27.chunk.css.map": "/my-finance-app/static/css/main.ace53f27.chunk.css.map",
+    "static/js/2.8e8386d5.chunk.js.LICENSE.txt": "/my-finance-app/static/js/2.8e8386d5.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/my-finance-app/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.cd9dc035.js",
     "static/css/2.fb6f20f9.chunk.css",
-    "static/js/2.238b6eed.chunk.js",
-    "static/css/main.516a9f92.chunk.css",
-    "static/js/main.25ad3421.chunk.js"
+    "static/js/2.8e8386d5.chunk.js",
+    "static/css/main.ace53f27.chunk.css",
+    "static/js/main.6f1f43fa.chunk.js"
   ]
 }
