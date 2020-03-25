@@ -22,7 +22,6 @@ import ExitToApp from '@material-ui/icons/ExitToApp';
 import {  navigation, config_nav } from '../../helpers/navigation';
 import { setText } from '../../i18n/utils';
 import { Link } from 'react-router-dom'
-import { useAuth0 } from "../../react-auth0-wrapper";
 import { Dropdown } from 'semantic-ui-react';
 
 
@@ -32,9 +31,8 @@ export default function ResponsiveDrawer() {
   const local = useStylesDrawer();
   const theme = useTheme();
   const { setOpen } = globalActions.actDrawer;
-  const { drawer, intl, dropdownMonthList, selectedDate } = globalState;
+  const { drawer, intl, dropdownMonthList, selectedDate, fireBase } = globalState;
   const { open } = drawer;
-  const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
 
   const getText = (id) => {
     return setText(intl, id);
@@ -115,7 +113,7 @@ export default function ResponsiveDrawer() {
           ))}
         </List>
         <Divider />
-        <ListItem button key='Sair' onClick={ () => logout()} >
+        <ListItem button key='Sair' onClick={ () => fireBase.signOut()} >
               <ListItemIcon><ExitToApp /></ListItemIcon>
               <ListItemText primary='Sair' />
         </ListItem>        

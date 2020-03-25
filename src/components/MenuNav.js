@@ -4,15 +4,12 @@ import { Dropdown, Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom'
 import './menuNav.css'
 import { setText } from "../i18n/utils";
-import { useAuth0 } from "../react-auth0-wrapper";
 
 
 const MenuNav = () => {
   const [globalState, globalActions] = useGlobal();
 
-  const { dropdownMonthList, intl, selectedDate } = globalState;
-  const { isAuthenticated, loginWithRedirect, logout } = useAuth0();
-
+  const { dropdownMonthList, intl, selectedDate, fireBase } = globalState;
 
 
   const getText = (id) => {
@@ -44,8 +41,7 @@ const MenuNav = () => {
                         options={dropdownMonthList}
                       />   
               </Menu.Item>
-              {!isAuthenticated && ( <Menu.Item name='Login' onClick={ () => loginWithRedirect({}) } />  )}
-              {isAuthenticated && <Menu.Item name='Logout' onClick={ () => logout() } /> }
+              <Menu.Item name='Logout' onClick={ () => fireBase.signOut() } />
             </Menu.Menu>
           </Menu>
   );

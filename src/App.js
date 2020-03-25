@@ -14,21 +14,33 @@ import ConfigProjetado from "./pages/ConfigProjetado";
 import "tachyons";
 import { getFutureMonths } from "./helpers/date.js";
 import Login from "./pages/Login";
-import { useAuth0 } from "./react-auth0-wrapper";
 import { useStyles } from './styles';
+import {initFirebase} from './config/firebaseConfig'
 
-export default function App(props) {
+const App = (WrappedComponentProps) => {
 
   const [globalState, globalActions] = useGlobal();
   const classes = useStyles();
   const { selectedDate, moviments, projetado, drawer } = globalState;
   const { open } = drawer;
   const { actAuth } = globalActions;
-  const { isAuthenticated, user } = useAuth0();
+  
+  const { user } = WrappedComponentProps;
 
   const email = () => {
-    return  actAuth.getEmail();
+    
+    if (typeof user !== 'undefined' && user !== null) {
+      return  user.email ?? null;        
+    }else{
+      return null;
+    }
+
+    
   }
+  
+  useEffect(() => {
+    actAuth.setFirebase(WrappedComponentProps);
+  }, []);
 
   useEffect(() => {
     if( typeof user !== 'undefined')
@@ -58,6 +70,8 @@ export default function App(props) {
     }
   }, [selectedDate,user]);
 
+  
+
   useEffect(() => {
     if (email() !== null) {
     globalActions.actProjetado.getAnaliseData();
@@ -65,7 +79,7 @@ export default function App(props) {
   }, [moviments, projetado]);
 
 
-  if (!isAuthenticated) {
+  if (email() === null) {
     return (
       <Login></Login>
     );
@@ -94,3 +108,6 @@ export default function App(props) {
     </Router>
   );
 }
+
+const {createComponentWithAuth} = initFirebase();
+export default createComponentWithAuth(App);
