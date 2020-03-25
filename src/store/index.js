@@ -6,6 +6,7 @@ import { dropdownMonthList } from '../helpers/date.js';
 
 const initialState = {
   fireBase: {},
+  user: {},
   drawer: {open: true},
   chartWrapper: null,
   intl: actions.actIntl.initIntlProvider(),

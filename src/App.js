@@ -28,11 +28,10 @@ const App = (WrappedComponentProps) => {
   const { user } = WrappedComponentProps;
 
   const email = () => {
-    
-    if (typeof user !== 'undefined' && user !== null) {
-      return  user.email ?? null;        
+    if (typeof user === 'undefined' || user === null) {
+      return null;      
     }else{
-      return null;
+      return  user.email;        
     }
 
     
@@ -40,13 +39,7 @@ const App = (WrappedComponentProps) => {
   
   useEffect(() => {
     actAuth.setFirebase(WrappedComponentProps);
-  }, []);
-
-  useEffect(() => {
-    if( typeof user !== 'undefined')
-       actAuth.setUser(user);
-
-  }, [user]);
+  }, [WrappedComponentProps]);
 
   useEffect(() => {
     if (email() !== null) {

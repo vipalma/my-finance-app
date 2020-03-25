@@ -6,7 +6,7 @@ const Login = () => {
 
   const [globalState] = useGlobal();
   const { fireBase } = globalState;
-  console.log("login page", fireBase)
+  
 
 
   return (
