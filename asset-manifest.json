@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-finance-app/static/css/main.ace53f27.chunk.css",
-    "main.js": "/my-finance-app/static/js/main.6f1f43fa.chunk.js",
-    "main.js.map": "/my-finance-app/static/js/main.6f1f43fa.chunk.js.map",
+    "main.css": "/my-finance-app/static/css/main.cc715ed1.chunk.css",
+    "main.js": "/my-finance-app/static/js/main.46c91f7b.chunk.js",
+    "main.js.map": "/my-finance-app/static/js/main.46c91f7b.chunk.js.map",
     "runtime-main.js": "/my-finance-app/static/js/runtime-main.cd9dc035.js",
     "runtime-main.js.map": "/my-finance-app/static/js/runtime-main.cd9dc035.js.map",
-    "static/css/2.fb6f20f9.chunk.css": "/my-finance-app/static/css/2.fb6f20f9.chunk.css",
-    "static/js/2.8e8386d5.chunk.js": "/my-finance-app/static/js/2.8e8386d5.chunk.js",
-    "static/js/2.8e8386d5.chunk.js.map": "/my-finance-app/static/js/2.8e8386d5.chunk.js.map",
+    "static/css/2.68010dee.chunk.css": "/my-finance-app/static/css/2.68010dee.chunk.css",
+    "static/js/2.818bcc0a.chunk.js": "/my-finance-app/static/js/2.818bcc0a.chunk.js",
+    "static/js/2.818bcc0a.chunk.js.map": "/my-finance-app/static/js/2.818bcc0a.chunk.js.map",
     "index.html": "/my-finance-app/index.html",
-    "precache-manifest.94d2820ab5843e51cd518a5a219e6f35.js": "/my-finance-app/precache-manifest.94d2820ab5843e51cd518a5a219e6f35.js",
+    "precache-manifest.8932ac47fe8a1fb30fd5af5f105a1fb6.js": "/my-finance-app/precache-manifest.8932ac47fe8a1fb30fd5af5f105a1fb6.js",
     "service-worker.js": "/my-finance-app/service-worker.js",
-    "static/css/2.fb6f20f9.chunk.css.map": "/my-finance-app/static/css/2.fb6f20f9.chunk.css.map",
-    "static/css/main.ace53f27.chunk.css.map": "/my-finance-app/static/css/main.ace53f27.chunk.css.map",
-    "static/js/2.8e8386d5.chunk.js.LICENSE.txt": "/my-finance-app/static/js/2.8e8386d5.chunk.js.LICENSE.txt",
+    "static/css/2.68010dee.chunk.css.map": "/my-finance-app/static/css/2.68010dee.chunk.css.map",
+    "static/css/main.cc715ed1.chunk.css.map": "/my-finance-app/static/css/main.cc715ed1.chunk.css.map",
+    "static/js/2.818bcc0a.chunk.js.LICENSE.txt": "/my-finance-app/static/js/2.818bcc0a.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/my-finance-app/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.cd9dc035.js",
-    "static/css/2.fb6f20f9.chunk.css",
-    "static/js/2.8e8386d5.chunk.js",
-    "static/css/main.ace53f27.chunk.css",
-    "static/js/main.6f1f43fa.chunk.js"
+    "static/css/2.68010dee.chunk.css",
+    "static/js/2.818bcc0a.chunk.js",
+    "static/css/main.cc715ed1.chunk.css",
+    "static/js/main.46c91f7b.chunk.js"
   ]
 }
