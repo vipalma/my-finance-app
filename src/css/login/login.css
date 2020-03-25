@@ -18,8 +18,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 div .lognModal{
     background-color: white;
     /* opacity: 80%; */
-    min-width: 400px;
-    height: 350px;
+    width: 600px;
+    height: 400px;
     border-radius: 10px;
     display: block;
     align-items: center;
@@ -27,7 +27,7 @@ div .lognModal{
 }
 
 div .title{
-    height: 35%;
+    height: 20%;
     display: flex;
     align-items: flex-end;
     justify-content: center;    
@@ -50,7 +50,7 @@ div .loginButton{
     /* background-color: cornflowerblue; */
     background: rgb(2,0,36);
     background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 65%;
     height: 50px;
     border-radius: 25px;
@@ -60,6 +60,13 @@ div .loginButton{
     cursor: pointer;
 }
 
+div .loginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
 div h4 {
     cursor: pointer;
     background: transparent;
@@ -67,4 +74,13 @@ div h4 {
     color: white;
     text-transform: uppercase;
     
+}
+
+.loginMessage{
+    color: red;
+    font-weight: 400;
+}
+
+.form{
+    width: 70%;
 }

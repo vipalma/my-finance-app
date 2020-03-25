@@ -27,7 +27,7 @@ const providers = {
     firebaseAppAuth,
   });
 
-  return { createComponentWithAuth: createComponentWithAuth }
+  return { createComponentWithAuth: createComponentWithAuth, firebaseAppAuth: firebaseAppAuth }
 
 }
 

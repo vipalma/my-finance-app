@@ -17,6 +17,8 @@ import Login from "./pages/Login";
 import { useStyles } from './styles';
 import {initFirebase} from './config/firebaseConfig'
 
+const {createComponentWithAuth, firebaseAppAuth} = initFirebase();
+
 const App = (WrappedComponentProps) => {
 
   const [globalState, globalActions] = useGlobal();
@@ -38,7 +40,7 @@ const App = (WrappedComponentProps) => {
   }
   
   useEffect(() => {
-    actAuth.setFirebase(WrappedComponentProps);
+    actAuth.setFirebase(WrappedComponentProps, firebaseAppAuth);
   }, [WrappedComponentProps]);
 
   useEffect(() => {
@@ -102,5 +104,5 @@ const App = (WrappedComponentProps) => {
   );
 }
 
-const {createComponentWithAuth} = initFirebase();
+
 export default createComponentWithAuth(App);
