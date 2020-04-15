@@ -18,8 +18,8 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-
-export default function FullWidthGrid() {
+ 
+export default function Dashboard() {
   const classes = useStyles();
 
   return (

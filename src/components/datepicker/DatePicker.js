@@ -55,7 +55,7 @@ const showCheckbox = () => {
         <>
         <div className={divClass}>
         <label className='b'>{labelName}</label>
-            <div className='flex'>
+        <div className='flex'>
             
                 
                 <Dropdown 

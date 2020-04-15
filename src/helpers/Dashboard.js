@@ -10,9 +10,9 @@ const saida = {
   const entrada = {
     backgroundColor: 'green',
   };
-
+ 
 export const cardOptions = 
-[
+[ 
     { 
         titleID: 'saldoInicial',
         icon: <AttachMoney />,
